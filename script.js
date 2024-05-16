@@ -1,7 +1,7 @@
 function buttonClick(buttonId) {
     alert('Button ' + buttonId + ' clicked!');
 }
-const countdownDate = new Date("June 01, 2024 00:00:00").getTime();
+const countdownDate = new Date("May 25, 2024 00:00:00").getTime();
 
 const countdown = setInterval(function() {
     const now = new Date().getTime();
